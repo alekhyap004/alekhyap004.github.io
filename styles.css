@@ -493,3 +493,68 @@ a:hover{ text-decoration: none; }
   .section{ padding: 62px 16px; }
   .aboutGrid{ grid-template-columns: 1fr; }
 }
+
+/* Footer layout aligned to copyright width */
+
+.footerMinimal {
+  padding-top: 40px;
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerDivider {
+  width: 100%;
+  height: 1px;
+  background: rgba(26, 15, 21, 0.12);
+  margin-bottom: 28px;
+}
+
+.footerIcons {
+  width: max-content;
+  min-width: 260px; /* keeps spacing consistent */
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  margin-bottom: 14px;
+}
+
+.footerIcons a {
+  color: rgba(26, 15, 21, 0.55);
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.footerIcons a:hover {
+  color: rgba(26, 15, 21, 0.85);
+  transform: translateY(-1px);
+}
+
+.footerIcons svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footerCopyright {
+  font-size: 16px;
+  color: rgba(26, 15, 21, 0.55);
+  margin: 0;
+}
+
+/* Force footer icons to be SVG-only */
+
+.footerIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 0;          /* <-- THIS is the key line */
+  line-height: 0;
+}
+
+.footerIcon svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}

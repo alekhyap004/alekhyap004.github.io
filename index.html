@@ -6,10 +6,13 @@
     <title>Alekhya | Software Engineer</title>
     <meta name="description" content="Alekhya — Software Engineer. Portfolio, experience, and projects." />
 
-    <!-- Fonts: clean + subtle cursive accents -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Parisienne&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
@@ -18,17 +21,17 @@
   <body>
     <a class="skipLink" href="#main">Skip to content</a>
 
+    <!-- NAV -->
     <header class="topbar">
       <nav class="nav">
-        <a class="brand" href="#top" aria-label="Home">
+        <a class="brand" href="index.html" aria-label="Home">
           <span class="brandMark">A</span>
           <span class="brandName">Alekhya</span>
         </a>
 
         <div class="navLinks" aria-label="Primary navigation">
           <a href="#about">About</a>
-          <a href="#work">Work</a>
-          <a href="#projects">Projects</a>
+          <a href="work.html">Work</a>
           <a href="#contact">Contact</a>
         </div>
 
@@ -44,18 +47,20 @@
         <div class="heroGrid">
           <div class="heroLeft reveal">
             <p class="eyebrow">Software Engineer</p>
+
             <h1 class="heroTitle">
               hey, i’m <span class="accent">Alekhya</span><span class="dot">.</span>
             </h1>
 
             <p class="heroSub">
-              I love building scalable systems at the intersection of software, cloud, and AI.
-              I care about clean engineering, thoughtful design, and shipping work that makes a real impact.
+              I love building scalable systems at the intersection of software,
+              cloud, and AI. I care about clean engineering, thoughtful design,
+              and shipping work that makes a real impact.
             </p>
 
             <div class="heroButtons">
-              <a class="btn btnPrimary" href="#projects">View projects</a>
-              <a class="btn btnGhost" href="#work">See experience</a>
+              <a class="btn btnPrimary" href="work.html">View projects</a>
+              <a class="btn btnGhost" href="work.html">See experience</a>
             </div>
 
             <div class="heroMeta" aria-label="Quick facts">
@@ -65,11 +70,27 @@
             </div>
 
             <div class="heroLinks" aria-label="Social links">
-              <a class="textLink" href="mailto:alekhyapalepu@gmail.com">alekhyapalepu@gmail.com</a>
+              <a class="textLink" href="mailto:alekhyapalepu@gmail.com">
+                alekhyapalepu@gmail.com
+              </a>
               <span class="sep">•</span>
-              <a class="textLink" href="https://www.linkedin.com/in/alekhyapalepu/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a
+                class="textLink"
+                href="https://www.linkedin.com/in/alekhyapalepu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
               <span class="sep">•</span>
-              <a class="textLink" href="https://github.com/alekhyap004" target="_blank" rel="noreferrer">GitHub</a>
+              <a
+                class="textLink"
+                href="https://github.com/alekhyap004"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
             </div>
           </div>
 
@@ -89,191 +110,100 @@
         <div class="sectionHeader reveal">
           <h2><span class="slashes">//</span> about</h2>
           <p class="muted">
-            A few quick notes — the vibe is simple, modern, and straight to the point.
+            A few quick notes — the vibe is simple, modern, and straight to the
+            point.
           </p>
         </div>
 
         <div class="aboutGrid">
           <div class="aboutCard reveal">
             <div class="iconBubble" aria-hidden="true">✦</div>
-            <p>I love building scalable systems at the intersection of software, cloud, and AI.</p>
+            <p>
+              I love building scalable systems at the intersection of software,
+              cloud, and AI.
+            </p>
           </div>
 
           <div class="aboutCard reveal">
             <div class="iconBubble" aria-hidden="true">◎</div>
-            <p>I’ve contributed to industry-leading applications with millions of users.</p>
+            <p>
+              I’ve contributed to industry-leading applications with millions of
+              users.
+            </p>
           </div>
 
           <div class="aboutCard reveal">
             <div class="iconBubble" aria-hidden="true">⌁</div>
-            <p>I currently am a Computer Science student at UC Santa Cruz.</p>
+            <p>
+              I currently am a Computer Science student at UC Santa Cruz.
+            </p>
           </div>
 
           <div class="aboutCard reveal">
             <div class="iconBubble" aria-hidden="true">♡</div>
-            <p>In my free time, I am planning my next trip, baking, or singing.</p>
+            <p>
+              In my free time, I am planning my next trip, baking, or singing.
+            </p>
           </div>
-        </div>
-      </section>
-
-      <!-- WORK -->
-      <section id="work" class="section">
-        <div class="sectionHeader reveal">
-          <h2><span class="slashes">//</span> work</h2>
-          <p class="muted">Highlights from internships, research, and leadership.</p>
-        </div>
-
-        <div class="timeline">
-          <article class="roleCard reveal">
-            <div class="roleTop">
-              <div>
-                <h3>S&P Global</h3>
-                <p class="roleMeta">DevOps Engineer Intern · Jun 2025 – Aug 2025 · Princeton, NJ</p>
-              </div>
-              <div class="roleTag">DevOps</div>
-            </div>
-            <ul>
-              <li>Spearheaded an enterprise-wide DevOps initiative optimizing SDLC workflow across 20+ engineering teams, recognized as a top priority effort.</li>
-              <li>Designed and deployed a maturity assessment framework using Python + Databricks to measure CI/CD, automation, and monitoring adoption, improving release velocity.</li>
-              <li>Built a Python backend microservice exposing REST APIs to query performance and sprint data from Jira and GitHub.</li>
-              <li>Integrated GitHub Advanced Security across 15+ repos, detecting 100+ secret exposures and vulnerabilities.</li>
-              <li>Used Linux for filesystem navigation, process inspection, log analysis, and system diagnostics; partnered with PMs on weekly usability tests and iteration.</li>
-            </ul>
-            <p class="stack"><span>Stack:</span> Python, Databricks, Linux, Jira, GitHub, REST APIs</p>
-          </article>
-
-          <article class="roleCard reveal">
-            <div class="roleTop">
-              <div>
-                <h3>Mytonomy</h3>
-                <p class="roleMeta">Software Engineering Intern · May 2024 – Dec 2025 · Bethesda, MD</p>
-              </div>
-              <div class="roleTag">Backend</div>
-            </div>
-            <ul>
-              <li>Contributed to a scalable AI-driven document streaming + processing pipeline supporting a healthcare education platform and Epic integrations.</li>
-              <li>Engineered backend automation in Python/Bash for document processing using AWS Lambda, S3, and Docker.</li>
-              <li>Integrated Snowflake Cortex AI Search into a Streamlit-based AI co-pilot to improve retrieval accuracy and search latency.</li>
-              <li>Evaluated Pinecone, Cortex, and Ollama via LangChain to optimize vector search with LLMs.</li>
-              <li>Refactored REST APIs for ingestion, reducing retrieval latency by 35% and improving front-end responsiveness; automated HTML deployments via GitLab CI/CD + Kubernetes.</li>
-            </ul>
-            <p class="stack"><span>Stack:</span> Python, AWS (Lambda/S3), Docker, Snowflake Cortex, Streamlit, Pinecone, LangChain, GitLab CI/CD, Kubernetes</p>
-          </article>
-
-          <article class="roleCard reveal">
-            <div class="roleTop">
-              <div>
-                <h3>Generative AI Research Lab</h3>
-                <p class="roleMeta">Software Engineering Intern · Apr 2024 – Sep 2024 · Santa Cruz, CA</p>
-              </div>
-              <div class="roleTag">Research</div>
-            </div>
-            <ul>
-              <li>Engineered backend infrastructure for an AI-powered QA automation application, implementing server-side functionality in PHP.</li>
-              <li>Connected backend services to a custom Android front-end built with JavaScript + HTML.</li>
-              <li>Implemented components translating user stories into executable test scripts using sequence-to-sequence transformer models for automated test generation.</li>
-            </ul>
-            <p class="stack"><span>Stack:</span> PHP, JavaScript, HTML, Android, NLP Transformers</p>
-          </article>
-
-          <article class="roleCard reveal">
-            <div class="roleTop">
-              <div>
-                <h3>Fabrix.ai (CloudFabrix)</h3>
-                <p class="roleMeta">Data Science Intern · Apr 2023 – Sep 2023 · Pleasanton, CA</p>
-              </div>
-              <div class="roleTag">Data</div>
-            </div>
-            <ul>
-              <li>Built a Python bot using Pandas + SQL on the RDAF platform, improving data operations by 30%.</li>
-              <li>Optimized ETL pipelines and ensured 99% data accuracy prior to ingestion.</li>
-              <li>Automated preprocessing workflows (cleansing, normalization, enrichment), accelerating data readiness by 40%.</li>
-              <li>Implemented AWS storage solutions for encrypted data storage and supported secure infrastructure with AWS EKS.</li>
-            </ul>
-            <p class="stack"><span>Stack:</span> Python, Pandas, SQL, AWS, ETL, EKS</p>
-          </article>
-
-          <article class="roleCard reveal">
-            <div class="roleTop">
-              <div>
-                <h3>AI Student Collective (AISC)</h3>
-                <p class="roleMeta">Founder & President · May 2024 – Present · Santa Cruz, CA</p>
-              </div>
-              <div class="roleTag">Leadership</div>
-            </div>
-            <ul>
-              <li>Founded and scaled AISC, fostering AI education and initiatives for a growing community of 50+ students.</li>
-              <li>Organize workshops, speaker events, and hackathons to connect students with AI professionals and researchers.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <!-- PROJECTS -->
-      <section id="projects" class="section">
-        <div class="sectionHeader reveal">
-          <h2><span class="slashes">//</span> projects</h2>
-          <p class="muted">Two placeholders for now — we can drop in real projects whenever you’re ready.</p>
-        </div>
-
-        <div class="projectGrid">
-          <article class="projectCard reveal">
-            <div class="projectTop">
-              <h3>Project Placeholder 01</h3>
-              <span class="chip">Coming soon</span>
-            </div>
-            <p class="muted">
-              A short 1–2 sentence summary of what this project does and why it’s interesting.
-            </p>
-            <p class="mini"><span>Tech:</span> Python · (add later)</p>
-            <div class="projectLinks">
-              <a class="textLink disabled" href="#" aria-disabled="true">GitHub</a>
-              <span class="sep">•</span>
-              <a class="textLink disabled" href="#" aria-disabled="true">Live demo</a>
-            </div>
-          </article>
-
-          <article class="projectCard reveal">
-            <div class="projectTop">
-              <h3>Project Placeholder 02</h3>
-              <span class="chip">Coming soon</span>
-            </div>
-            <p class="muted">
-              A short 1–2 sentence summary of what this project does and why it’s interesting.
-            </p>
-            <p class="mini"><span>Tech:</span> React · (add later)</p>
-            <div class="projectLinks">
-              <a class="textLink disabled" href="#" aria-disabled="true">GitHub</a>
-              <span class="sep">•</span>
-              <a class="textLink disabled" href="#" aria-disabled="true">Live demo</a>
-            </div>
-          </article>
         </div>
       </section>
 
       <!-- CONTACT -->
-      <section id="contact" class="section">
-        <div class="contactCard reveal">
-          <div>
-            <h2 class="contactTitle">
-              let’s <span class="script">connect</span><span class="dot">.</span>
-            </h2>
-            <p class="muted">
-              The easiest way to reach me is email — I usually reply pretty quickly.
-            </p>
-          </div>
+      <section id="contact" class="section footerMinimal">
+      <div class="footerDivider"></div>
 
-          <div class="contactActions">
-            <a class="btn btnPrimary" href="mailto:alekhyapalepu@gmail.com">Email me</a>
-            <a class="btn btnGhost" href="https://www.linkedin.com/in/alekhyapalepu/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a class="btn btnGhost" href="https://github.com/alekhyap004" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </div>
+      <div class="footerIcons">
+        <a
+          href="mailto:alekhyapalepu@gmail.com"
+          aria-label="Email"
+          title="Email"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M2 6.5C2 5.1 3.1 4 4.5 4h15C20.9 4 22 5.1 22 6.5v11c0 1.4-1.1 2.5-2.5 2.5h-15C3.1 20 2 18.9 2 17.5v-11zm2.2-.5L12 11.2 19.8 6H4.2z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
 
-        <footer class="footer">
-          <p class="muted">© <span id="year"></span> Alekhya. Built with vanilla HTML/CSS/JS.</p>
-        </footer>
-      </section>
+        <a
+          href="https://github.com/alekhyap004"
+          target="_blank"
+          aria-label="GitHub"
+          title="GitHub"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 2C6.5 2 2 6.6 2 12.3c0 4.6 2.9 8.4 6.8 9.8.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.4-3.4-1.4-.4-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.7-1.4-2.2-.3-4.5-1.1-4.5-4.9 0-1.1.4-2 1-2.7-.1-.3-.4-1.2.1-2.6 0 0 .8-.3 2.8 1a9.5 9.5 0 015 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.8-2.3 4.6-4.5 4.9.4.3.7.9.7 1.8v2.6c0 .3.2.6.7.5 3.9-1.4 6.8-5.2 6.8-9.8C22 6.6 17.5 2 12 2z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+
+      <a
+      href="https://www.linkedin.com/in/alekhyapalepu/"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="LinkedIn"
+      class="footerIcon"
+      >
+      <svg
+      viewBox="0 0 24 24"
+      role="img"
+      aria-hidden="true"
+      >
+      <path
+      fill="currentColor"
+      d="M4.98 3.5C3.34 3.5 2 4.85 2 6.48c0 1.63 1.34 2.98 2.98 2.98h.02A2.98 2.98 0 008 6.48C8 4.85 6.66 3.5 4.98 3.5zM2.5 21h5V9h-5v12zM9.5 9h4.6v1.7h.1c.6-1.1 2.1-2.2 4.3-2.2 4.6 0 5.4 3 5.4 7V21h-5v-5.6c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9V21h-5V9z"
+      />
+      </svg>
+      </a>
+      </div>
+
+      <p class="footerCopyright">
+        © 2026 Alekhya Palepu
+      </p>
+    </section>
     </main>
 
     <script src="script.js"></script>
